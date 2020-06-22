@@ -100,3 +100,68 @@ body {
   }
   /* Banner Section Ends */
   
+  /*  Villas Section Starts */
+  .vill_section{
+    padding: 40px 0px;
+  }
+  .villa_wrapper{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .single_villa {
+    text-align: center;
+    width: 30%;
+    float: left;
+    padding: 10px 2% 10px;
+  }
+
+  .single_villa:last-child{
+    padding-right: 0;
+  }
+
+  .single_villa h2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #777777;
+  }
+  .single_villa img{
+    width: 100%;
+  }
+  .single_villa p{
+    color: #777777;
+  }
+  .single_villa button{
+    color: #fff;
+    background-color: #435C7A;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .single_villa button:hover{
+      background-color: #60a5f8;
+  }
+  /*  Villas Section Ends */
+
+  /* Footer Section Starts */
+  .footer_sec{}
+  .about{
+    width: 40%;
+    margin:0 auto 20px;
+    text-align: center;
+  }
+
+  .about p{
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+  }
+  .about img{
+    margin-top: 15px;
+  }
+
+  /* Footer Section Ends */
